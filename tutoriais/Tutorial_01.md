@@ -221,7 +221,7 @@ Selecionamos (1) pessoas quasadas que (2) possuam até 30 anos e (3) não tenham
 Produza um novo *data_frame* com apenas 4 variáveis -- "age", "income", "economy" e "candidate" -- e que contenha apenas eleitores homens, ricos ("income" maior que FM\$ 3 mil, que é dinheiro pra caramba em Fakeland) e inclinados a votar no candidato "Trampi".
 
 ```{r}
-fake2 <- fake[fake$sex=="Homem" &
+fake2 <- fake[fake$sex=="Male" &
                 fake$income > 3000 &
                 fake$candidate=="Trampi",
                c("age", "income", "economy", "candidate")]
