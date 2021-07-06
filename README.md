@@ -8,7 +8,7 @@
  
 ### Data, Hora e Local
 
-De 10 a 14 de maio, das 18h30 às 21h30.
+De 05 a 09 de junho, das 18h30 às 21h30.
 
 Os encontros serão via Zoom e utilizarão material disponível no repositório do curso.
 
