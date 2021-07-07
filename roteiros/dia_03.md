@@ -12,7 +12,17 @@ Hoje trabalharemos com a biblioteca gráfica *ggplot2*. Ela possui integração 
 
 3- Realizar o [Tutorial 4](https://github.com/thiagomeireles/cebrap_programacaoR_2021_ed2/blob/main/tutoriais/Tutorial_04.md) que apresenta os principais aspectos para visualização de gráficos utilizando o *ggplot2*. Aqui o [Tutorial 4 versão Rmd](https://github.com/thiagomeireles/cebrap_programacaoR_2021_ed2/blob/main/tutoriais/Tutorial_04.Rmd)
 
-### RMarkdown
+### Cheatsheets
+
+[Data Wrangling](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf) - Manipulação e preparação de dados
+
+[dplyr](https://raw.githubusercontent.com/rstudio/cheatsheets/master/data-transformation.pdf)
+
+[ggplot2](https://www.maths.usyd.edu.au/u/UG/SM/STAT3022/r/current/Misc/data-visualization-2.1.pdf)
+
+[lubridate](https://evoldyn.gitlab.io/evomics-2018/ref-sheets/R_lubridate.pdf) - Dados em formato data e hora
+
+O site do RStudio possui uma página com diversas outras para usos distintos e está disponível [aqui](https://www.rstudio.com/resources/cheatsheets/).
 
 ## Link para aula
 
