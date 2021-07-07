@@ -16,11 +16,8 @@ Hoje trabalharemos com a biblioteca gráfica *ggplot2*. Ela possui integração 
 
 [Data Wrangling](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf) - Manipulação e preparação de dados
 
-<<<<<<< HEAD
 [dplyr](https://raw.githubusercontent.com/rstudio/cheatsheets/master/data-transformation.pdf)
 
-=======
->>>>>>> 2c032965a3fe01f9a2f90a3b92db3f3eccc2b14e
 [ggplot2](https://www.maths.usyd.edu.au/u/UG/SM/STAT3022/r/current/Misc/data-visualization-2.1.pdf)
 
 [lubridate](https://evoldyn.gitlab.io/evomics-2018/ref-sheets/R_lubridate.pdf) - Dados em formato data e hora
