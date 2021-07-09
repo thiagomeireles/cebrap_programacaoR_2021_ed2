@@ -108,7 +108,7 @@ query.pib_pc <- "SELECT
     pop.ano, 
     pib.PIB / pop.populacao as pib_pc
 FROM `basedosdados.br_ibge_pib.municipios` as pib
-INNER JOIN `basedosdados.br_ibge_populacao.municipios` as pop
+INNER JOIN `basedosdados.br_ibge_populacao.municipio` as pop
 ON pib.id_municipio = pop.id_municipio AND pib.ano = pop.ano"
 
 df.pib_pc <- dbGetQuery(con, query.pib_pc)
