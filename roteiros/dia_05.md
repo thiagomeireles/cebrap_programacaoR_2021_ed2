@@ -8,7 +8,7 @@ Hoje manipularemos mapas utilizando a biblioteca *sf*. Você verá que ela possu
 
 1- Comentários sobre as tarefas de ontem;
 
-2- Realizar o [Tutorial 5](https://github.com/thiagomeireles/cebrap_programacaoR_2021/blob/main/tutoriais/Tutorial_05.md) sobre mapas com *sf* e *ggplot2*. Aqui o [Tutorial 5 versão Rmd](https://github.com/thiagomeireles/cebrap_programacaoR_2021/blob/main/tutoriais/Tutorial_05.Rmd)
+2- Realizar o [Tutorial 5](https://github.com/thiagomeireles/cebrap_programacaoR_2021_ed2/blob/main/tutoriais/Tutorial_05.md) sobre mapas com *sf* e *ggplot2*. Aqui o [Tutorial 5 versão Rmd](https://github.com/thiagomeireles/cebrap_programacaoR_2021_ed2/blob/main/tutoriais/Tutorial_05.Rmd)
 
 3- Caso seja usuária do Linux, instale as dependências no terminal indicadas [aqui](https://r-spatial.github.io/sf/#linux).
 
