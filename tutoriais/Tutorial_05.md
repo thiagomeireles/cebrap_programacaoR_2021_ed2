@@ -99,7 +99,7 @@ Dica: muito cuidado na construção dos mapas. **SEMPRE** mantenha as coordenada
 Como dito, a principal vantagem que o *sf* traz para a produção de mapas em R é permitir a incorporação da dados a partir de identificadores, como já vimos com o dplyr. Vamos utilizar o pacote *basedosdados* para buscar dados no nível municipal e estadual. Primeiros vamos definir o ID do projeto de cobrança de download dos dados:
 
 ```{r}
-set_billing_id('') # insira seu ID
+set_billing_id('exemplary-tide-310619') # insira seu ID
 ```
 
 ### Nível municipal: dados de mortalidade
@@ -194,7 +194,7 @@ mapa_mun %>%
   filter(!is.na(taxa_cat)) %>% 
   ggplot() + 
   geom_sf(aes(fill = taxa_cat), color = NA) + 
-  scale_fill_viridis_d(option = "E", direction =  -1) +
+  scale_fill_viridis_d(option = "B", direction =  -1) +
   labs(x = NULL,
        y = NULL,
        title = "Taxa de mortalidade por município Brasileiro em 2019",
@@ -211,14 +211,8 @@ Vamos, primeiro, fazer o download dos microdados da vacinação no Brasil agrupa
 ```{r}
 query_vacinacao<- "SELECT sigla_uf, dose, SUM(1) AS vacinas_aplicadas FROM `basedosdados.br_ms_vacinacao_covid19.microdados_vacinacao` GROUP BY sigla_uf, dose"
 
-df_vacinacao <- read_sql(query_vacinacao) 
-
-# Identificando apenas as classificações de primeira ou segunda dose
-n_dose <- unique(df_vacinacao$dose)[1:2]
-
-# Filtrando apenas quando classificado em primeira ou segunda dose
-df_vacinacao <- df_vacinacao %>% 
-  filter(dose %in% n_dose)
+df_vacinacao <- read_sql(query_vacinacao) %>% 
+  filter(!is.na(dose))
 ```
 
 Ok, temos os dados para primeira e segunda dose por estado. Msa comparar o número absoluto não parece uma boa ideia. Vamos mais uma vez ver a porcentagem de vacinados para cada dose em cada um dos estados. Para isso precisamos da população por UF. Podemos obter essa informação em um dataframe que utilizamos, o *df_sim* agrupando a população por unidade federativa. Vamos lá:
