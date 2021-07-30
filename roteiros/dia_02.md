@@ -12,7 +12,7 @@ Além disso, utilize o tempo restante para seguir com os tutoriais da aula de on
 
 2- Acompanhe utilizando o [Tutorial Extra 1](https://github.com/thiagomeireles/cebrap_programacaoR_2021_ed2/blob/main/tutoriais/extras/Tutorial_01.md). Ele é uma adaptação do que é apresentado no vídeo, mas sem a parte gráfica. Disponível também em [Rmd](https://github.com/thiagomeireles/cebrap_programacaoR_2021_ed2/blob/main/tutoriais/extras/Tutorial_01.Rmd)
 
-3- Vídeo apresentando o Base dos Dados e o [pacote basedosdados para R](https://drive.google.com/file/d/1Hp5rCaVHQrd6O7VG4bMVLtpxCxAJGFsH/view?usp=sharing)
+3- Vídeo apresentando o Base dos Dados e o [pacote basedosdados para R]()
 
 
 3- Retome os Tutoriais não terminados da aula de ontem.
